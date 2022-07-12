@@ -1,0 +1,10 @@
+Command Line Prompt:
+	$ > logged in as normal user
+	# > logged in a root
+
+Command-Line Commands:
+	man "command" >  view information about the "command". man = manual, q > quits manual
+	ls > list directory contents, short list 
+		-a, --all > view all
+		-l > long list
+	ssh > protocol for accessing Secure SHell

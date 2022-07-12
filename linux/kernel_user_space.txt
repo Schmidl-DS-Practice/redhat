@@ -1,0 +1,6 @@
+User process: associate with user. Started from shell, out to terminal. Full grown process
+Daemon process: not associated with user. Started up by the system.
+Kernel threads: part of the kernel running as though user/daemon processes but not associated with shell.
+
+Ps > process running
+Ps -ef > e: display information about other users' processes; f: display did, pid, parent pid,  recent cpu usage, process start time, controlling tty, elapsed cpu usage, and associated command
