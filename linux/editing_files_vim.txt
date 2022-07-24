@@ -1,0 +1,19 @@
+from command line: vimtutor
+commands once in vim:
+i > edit text in insert mode
+esc > out of insert mode
+: > extended command mode
+:write(w) filename > to save file
+:quit(q) > exit vim
+yy > yank(copy) a line
+p > paste yank line
+10p > past the line 10 times
+dw > delete word (place cursor on beginning character of word)
+x > delete current character
+d"left arrow" > delete character to the left
+d"right arrow" > delete current character
+dd > delete line
+10dd > delete that number of lines
+o > enter insert mode and put cursor on new blank line under cursor position
+ZZ > save and quit without going into extended command mode
+:q! > override and quit
