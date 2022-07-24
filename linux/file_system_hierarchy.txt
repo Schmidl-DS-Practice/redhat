@@ -1,0 +1,17 @@
+directories directly under root: ls /
+info for directories under root:
+bin > binaries > executables > typically useable by anyone > symbolic link > points to usr/bin
+sbin > system binaries > typically only used by root > symbolic link > points to user/sbin > system admin command
+usr > unix system resources > ls -usr: actual binaries
+whereis > where is this
+boot > has kernel > files to initialize and load kernel
+grub2 > boot loader > initialize/load kernel
+dev > device files
+etc > extended text configurations > configuration files > web server or ssh server
+home > normal user home directories
+root > 
+lib & lib64 > application libraries typical go
+tmp > temporary space
+var > variable data > spool directories and files > adminstrative and logging data > transient and temporary files
+/tmp > purging policy of 10 days
+/var/temp > purged every 30 days

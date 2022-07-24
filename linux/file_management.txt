@@ -1,0 +1,12 @@
+- link files points to another files
+command:
+	file "file/dir" > displays type
+- file names case sensitive
+- rm > none interactive, NO RECOVERY
+
+how to create hard link:
+ln "pointee file" "pointer file"
+
+how to create symbolic(soft) link:
+ln -s "pointee file" "pointer file"
+
