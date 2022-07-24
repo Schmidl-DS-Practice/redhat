@@ -1,4 +1,3 @@
 command:
-subscription-manager > not on this computer
-yum > not on this computer
-
+subscription-manager > not on this mac
+yum > not on this mac

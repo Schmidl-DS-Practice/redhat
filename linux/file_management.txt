@@ -9,4 +9,3 @@ ln "pointee file" "pointer file"
 
 how to create symbolic(soft) link:
 ln -s "pointee file" "pointer file"
-

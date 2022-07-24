@@ -1,0 +1,7 @@
+packages:
+docker
+buildah
+skopeo
+
+red hat has their own containers
+container-tools

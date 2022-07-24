@@ -1,3 +1,3 @@
 command:
-nmcli > not installed on computer
-ip > not installed on computer
+nmcli > not installed on mac
+ip > not installed on mac

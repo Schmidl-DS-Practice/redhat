@@ -1,0 +1,3 @@
+command:
+systemctl > not installed on mac
+

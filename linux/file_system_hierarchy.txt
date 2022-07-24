@@ -9,7 +9,7 @@ grub2 > boot loader > initialize/load kernel
 dev > device files
 etc > extended text configurations > configuration files > web server or ssh server
 home > normal user home directories
-root > 
+root >
 lib & lib64 > application libraries typical go
 tmp > temporary space
 var > variable data > spool directories and files > adminstrative and logging data > transient and temporary files
