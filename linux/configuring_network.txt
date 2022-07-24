@@ -1,0 +1,3 @@
+command:
+nmcli > not installed on computer
+ip > not installed on computer

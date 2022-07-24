@@ -1,0 +1,4 @@
+command:
+subscription-manager > not on this computer
+yum > not on this computer
+
