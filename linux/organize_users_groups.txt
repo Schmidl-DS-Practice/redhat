@@ -1,0 +1,20 @@
+command:
+useradd "usertoadd" > add users
+userdel "usertodelete" > delete users
+usermod "user to modify" > modify properties
+id "username" > properties of user > uid(user id) > gid (primary group id) > groups (supplementary groups)
+groupadd > adds group
+groupdel > deletes group
+groupmod > modifies group
+
+passwd "user" > if no user is given it changes current user > allocate password to user
+
+grep > search for a string of characters in a specified file > uses regex
+
+
+folder:
+etc/passwrd > stores user account information
+
+su > switch user
+
+whoami > who is currently logged in

@@ -1,0 +1,13 @@
+permission:
+r w x
+each file has 10 bits associated:
+first bit > kind of file (d > directory, - > normal file, l > symbolic link, b > block-based)
+remaining 9 are permissions > 3 permissions applied to 3 different entities > process permissions in order:
+user - group - other
+ rwx    rwx     rwx
+when create a file > logged in as user > user has a primary group > group associated with newly created file would be the users primary group
+
+commands:
+ls -ld > to see permissions associated
+chmod "permissions" "user" > change permissions mode > o+w (gives other user who isn't the primary user nor in the primary group, write access
+chown "user:group" "file/dir"> change ownership
